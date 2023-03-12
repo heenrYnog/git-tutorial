@@ -1,0 +1,60 @@
+
+botão direito gitBashHere - linha de comando dentro da pasta
+
+git init - para que a pasta criar a pasta oculta do git chamada .git
+
+git status - mostrar quais arquivos foram ou não adicionados
+
+git add "" - adicionar o arquivo no controle de versão
+
+git add . - adiciona todos os arquvios que não foram adicionados
+
+git commit -m "" - o -m é a mensagem que você irá comentar para explicar o que foi modificado
+
+git remote add <name> <url>
+
+git reflog - ver histórico a do topo a mais recente
+
+git reset --hard <número da versão> - navega pelas versões (sempre questionar com sua equipe)
+
+branch - lugar para armazenar seu código
+
+ex: branch A; B; C - Se a branch principal for a B, a branch A e C, são paralelas, e você pode dar um merge(juntar) entre essas branch.
+
+Para criar uma branch, basta colocar:
+git branch <nomedabranch> 
+
+git checkout <nomedabranch> - mudará para branch desejada
+
+git merge <nomedabranch> - irá fundir a sua branch principal que você está, para a branch que deseja
+*sempre dar um git pull, para pegar as atualizações do servidor, e o merge dar certo.
+
+Merge passo a passo seguro com a equipe:
+
+git branch - verificar se está na principal
+
+git pull - ter certeza que está no código mais atual
+
+git checkout -b <nomedanovabranch> master - criou uma nova branch e já trocou direto pra ela
+
+git add . - adicionar todos os códigos novos
+
+git commit -m "" - adicionar o que mudou
+
+git checkout <mudaparaprincipal> - mudar para a principal
+
+git pull - pegar o código mais atual
+
+git merge <nomedanovabranch>
+
+git push - atualiza a principal
+/////////////////////////////////////////////////////////
+
+Para fazer com o q o git ignore uma pasta ou um código, basta criar:
+
+touch .gitignore - irá criar um .txt - e dentro do .txt colocar o nome do código que deseja nomedocódigo/
+
+
+
+
+
