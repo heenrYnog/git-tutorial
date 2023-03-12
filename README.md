@@ -1,4 +1,4 @@
 # git-tutorial
 GIT comandos Dev Aprender
-![image](https://user-images.githubusercontent.com/84157702/224563212-8dae1700-2dae-4af7-9915-33cb491ed44f.png)
 
+https://www.youtube.com/watch?v=kB5e-gTAl_s&list=PLyXUHDN6FfzBfzu2y4rNGHp4Qmjn4cHhT&index=5&t=1031s&ab_channel=DevAprender
