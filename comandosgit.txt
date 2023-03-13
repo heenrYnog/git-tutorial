@@ -1,7 +1,7 @@
 
 botão direito gitBashHere - linha de comando dentro da pasta
 
-git init - para que a pasta criar a pasta oculta do git chamada .git
+git init - para que a pasta crie a pasta oculta do git chamada .git
 
 git status - mostrar quais arquivos foram ou não adicionados
 
